@@ -2,7 +2,7 @@ import { ReasonCard } from "./reasonCard";
 
 export function GridPage() {
   return (
-    <section className="grid grid-cols-2 px-32 pb-32 gap-16 items-center">
+    <section className="grid grid-cols-2 px-32 -mt-28 gap-16 items-center bg-primary-main">
       <ReasonCard
         image="/icon-access-anywhere.svg"
         title="Acess your files, anywhere"
@@ -26,8 +26,6 @@ export function GridPage() {
         title="Store any type of file"
         description="The abillity to use a smartphone, tablet or a computer to acess your account means your files follow you everywhere"
       />
-
-      <div className="absolute w-screen h-full bg-primary-main mt-20 -mx-32"></div>
     </section>
   );
 }

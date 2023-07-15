@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export function IntroPage() {
   return (
-    <section className="flex flex-col gap-6 text-center justify-center items-center bg-primary-intro pb-24">
+    <section className="flex flex-col gap-6 text-center justify-center items-center bg-primary-intro pb-72">
       <Image
         className="z-10 w-[410px]"
         src="/illustration-intro.png"
