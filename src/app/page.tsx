@@ -1,4 +1,5 @@
 import { EarlyAcessCard } from "@/components/contactPage";
+import { Footer } from "@/components/footer";
 import { GridPage } from "@/components/gridPage";
 import { Header } from "@/components/header";
 import { IntroPage } from "@/components/introPage";
@@ -14,6 +15,7 @@ export default function Home() {
       <ProductPage />
       <QuotePage />
       <EarlyAcessCard />
+      <Footer />
     </main>
   );
 }
