@@ -17,11 +17,8 @@ export function ProductPage() {
           Securely sahre files and folders with friends, family and colleagues for live collaboration. No email
           attachments required.
         </p>
-        <a
-          href=""
-          className="text-accent-blue hover:text-accent-cyan underline underline-offset-2 inline-flex gap-2 h-max w-fit"
-        >
-          See how Fylo works <Image src="/icon-arrow.svg" alt="" width={16} height={16} />
+        <a href="" className="text-accent-blue hover:text-accent-cyan underline underline-offset-2 inline-flex gap-1">
+          See how Fylo works <Image className="h-full w-fit" src="/icon-arrow.svg" alt="" width={16} height={16} />
           <div></div>
         </a>
       </div>

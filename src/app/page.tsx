@@ -1,7 +1,9 @@
+import { EarlyAcessCard } from "@/components/contactPage";
 import { GridPage } from "@/components/gridPage";
 import { Header } from "@/components/header";
 import { IntroPage } from "@/components/introPage";
 import { ProductPage } from "@/components/productivePage";
+import { QuotePage } from "@/components/quotesPage";
 
 export default function Home() {
   return (
@@ -10,6 +12,8 @@ export default function Home() {
       <IntroPage />
       <GridPage />
       <ProductPage />
+      <QuotePage />
+      <EarlyAcessCard />
     </main>
   );
 }
