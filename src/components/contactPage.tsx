@@ -1,6 +1,6 @@
 export function EarlyAcessCard() {
   return (
-    <div className="flex flex-col mx-6 py-12 px-6 md:px-28 mt-32 md:mx-[17.5rem] bg-primary-testimonials text-center justify-center items-center gap-6 rounded-md shadow-2xl">
+    <div className="flex flex-col mx-6 py-12 px-6 md:px-28 mt-32 md:mx-[17.5rem] bg-primary-testimonials text-center justify-center items-center rounded-md shadow-2xl z-10 gap-6">
       <h3 className="text-xl md:text-2xl font-bold font-alt">Get early acess today</h3>
       <p>
         It only takes a minute to sign up and our free starter tier is extremely generous. If you have any questions,
