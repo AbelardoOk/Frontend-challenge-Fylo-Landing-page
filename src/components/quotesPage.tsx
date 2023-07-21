@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export function QuotePage() {
   return (
-    <section className="flex flex-col px-14 md:grid md:grid-cols-3 md:px-20 gap-12 z-auto">
+    <section className="flex flex-col px-14 lg:grid lg:grid-cols-3 lg:px-20 gap-12 z-auto">
       <Image className="absolute -mt-8 -m-3" src="/bg-quotes.png" alt="" width={55} height={45} />
 
       <QuoteCard

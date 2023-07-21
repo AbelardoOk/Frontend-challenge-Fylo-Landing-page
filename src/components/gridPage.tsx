@@ -2,7 +2,7 @@ import { ReasonCard } from "./reasonCard";
 
 export function GridPage() {
   return (
-    <section className="flex flex-col gap-24 md:grid md:grid-cols-2 md:px-32 -mt-28 md:gap-16 items-center bg-primary-main">
+    <section className="flex flex-col gap-24 lg:grid lg:grid-cols-2 lg:px-32 lg:pt-8 -mt-28 lg:gap-16 items-center bg-primary-main">
       <ReasonCard
         image="/icon-access-anywhere.svg"
         title="Acess your files, anywhere"

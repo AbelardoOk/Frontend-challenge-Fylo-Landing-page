@@ -4,10 +4,10 @@ import { TwitterIcon } from "../../public/twitter";
 import { InstagramIcon } from "../../public/instagram";
 export function Footer() {
   return (
-    <footer className="flex flex-col px-6 md:px-32 mt-24 py-20 bg-primary-footer z-[1] gap-7">
+    <footer className="flex flex-col px-6 md:px-16 lg:px-20 xl:px-32 mt-24 py-20 bg-primary-footer z-[1] gap-7">
       <Image className="w-40 h-fit" src="/logo.svg" alt="Fylo" width={176} height={72} />
 
-      <div className="flex flex-col md:flex-row gap-4 justify-between items-start">
+      <div className="flex flex-col lg:flex-row gap-4 justify-between items-start">
         <div className="flex flex-row gap-6 items-start">
           <Image className="mt-1 h-4 w-3" src="/icon-location.svg" alt="" width={16} height={16} />
           <p className="w-80">
@@ -26,7 +26,7 @@ export function Footer() {
           </p>
         </div>
 
-        <div className="flex flex-col gap-2 items-start mt-10 md:mt-0">
+        <div className="flex flex-col gap-2 items-start mt-10 lg:mt-0">
           <a href="" className="hover:font-bold">
             About Us
           </a>
@@ -41,7 +41,7 @@ export function Footer() {
           </a>
         </div>
 
-        <div className="flex flex-col gap-2 items-start mt-10 md:mt-0">
+        <div className="flex flex-col gap-2 items-start mt-10 lg:mt-0">
           <a href="" className="hover:font-bold">
             Contact Us
           </a>
@@ -53,7 +53,7 @@ export function Footer() {
           </a>
         </div>
 
-        <div className="flex flex-row justify-center md:justify-between items-center md:items-start gap-3 mt-10 md:mt-0 w-full md:w-auto">
+        <div className="flex flex-row justify-center lg:justify-between items-center md:items-start gap-3 mt-10 lg:mt-0 w-full md:w-auto">
           <div className="border-[1px] hover:border-accent-cyan border-neutral-white rounded-full p-2 fill-neutral-white hover:fill-accent-cyan">
             <FacebookIcon />
           </div>

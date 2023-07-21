@@ -1,8 +1,14 @@
 import Image from "next/image";
 export function ProductPage() {
   return (
-    <section className="flex flex-col md:flex-row gap-12 px-8 md:px-32 py-32 justify-center">
-      <Image src="/illustration-stay-productive.png" alt="produtive illustration" width={615} height={465} />
+    <section className="flex flex-col md:flex-row gap-12 px-8 sm:justify-between sm:px-16 lg:px-32 py-32 justify-center items-center">
+      <Image
+        className="sm:h-56 w-max xl:h-auto"
+        src="/illustration-stay-productive.png"
+        alt="produtive illustration"
+        width={615}
+        height={465}
+      />
 
       <div className="flex flex-col text-left gap-4 md:gap-8 justify-center">
         <h2 className="text-xl md:text-3xl font-bold font-alt">Stay productive, wherever you are</h2>
