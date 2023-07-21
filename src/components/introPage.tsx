@@ -29,7 +29,7 @@ export function IntroPage() {
 
       {innerWidth !== null && innerWidth > 768 ? (
         <Image
-          className="absolute w-screen z-[1] mt-[35%] h-fit"
+          className="absolute w-screen z-[1] md:mt-[81%] lg:mt-[53%] xl:mt-[35%] h-fit"
           src="bg-curvy-desktop.svg"
           alt=""
           width={1440}
